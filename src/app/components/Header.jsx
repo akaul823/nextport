@@ -19,6 +19,10 @@ function Header() {
             opacity: 1,
             scale: 1
         }}
+
+        transition={{
+            duration: 1.5,
+        }}
         
         className='flex flex-row items-center'>
             {/* Social Icons */}
@@ -44,15 +48,32 @@ function Header() {
             bgColor='transparent'
             ></SocialIcon> */}
         </motion.div>
-        <div className='flex flex-row items-center text-red-600 cursor-pointer'>
+        <motion.div 
+        initial={{
+            x: 500,
+            opacity: 0,
+            scale: 0.5
+        }}
+        animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1
+        }}
+
+        transition={{
+            duration: 1.5,
+        }}
+
+        
+        className='flex flex-row items-center cursor-pointer text-red-600'>
             <SocialIcon
             className='cursor-pointer'
             network='email'
             fgColor='red'
             bgColor='transparent'
             ></SocialIcon>
-            <p className='uppercase hidden md:inline-flex text-sm text-red-600 '>Hit me up</p>
-        </div>
+            <p className='uppercase hidden md:inline-flex text-sm text-fuchsia-600 '>Hit me up</p>
+        </motion.div>
     </header>
   )
 }
