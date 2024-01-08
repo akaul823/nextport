@@ -13,7 +13,7 @@ function Hero() {
   return (
     // flex min-h-screen flex-col bg-[rgb(24,24,24)] text-red-600 snap-y snap-mandatory overflow-scroll z-0
     // h-screen flex flex-col space-y-8 items-center justify-center text-center
-    <div className='min-h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+    <div className='min-h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-visible'>
         <BackgroundCircles />
         <Image
             src="/images/black.PNG"
