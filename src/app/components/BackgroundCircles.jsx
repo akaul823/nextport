@@ -17,10 +17,10 @@ function BackgroundCircles() {
     }}
     className='relative flex justify-center items-center'>
         <div className=' absolute border border-fuchsia-500 rounded-full h-[200px] w-[200px] mt-52 animate-ping' />
-        <div className='rounded-full border border-red-600 h-[315px] w-[315px] absolute mt-52' />
-        <div className='rounded-full border border-red-700 h-[500px] w-[500px] absolute mt-52' />
-        <div className='rounded-full border border-fuchsia-800 opacity-20 h-[650px] w-[650px] absolute mt-52 animate-pulse' />
-        {/* <div className='rounded-full border border-red-800 h-[800px] w-[800px] absolute mt-52' /> */}
+        <div className='rounded-full border border-red-600 opacity-40 h-[315px] w-[315px] absolute mt-52' />
+        <div className='rounded-full border border-red-700 opacity-40 h-[500px] w-[500px] absolute mt-52' />
+        <div className='rounded-full border border-fuchsia-800 opacity-500 h-[650px] w-[650px] absolute mt-52 animate-pulse' />
+        {/* <div className='rounded-full border border-red-800 h-[665px] w-[665px] absolute mt-52' /> */}
     </motion.div>
   )
 } 

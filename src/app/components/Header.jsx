@@ -27,17 +27,20 @@ function Header() {
         className='flex flex-row items-center'>
             {/* Social Icons */}
             <SocialIcon 
+            className='hover:animate-spin'
             url='https://www.linkedin.com/in/avikarkaul/'
             fgColor='red'
             bgColor='transparent'
             ></SocialIcon>
 
             <SocialIcon 
+            className='hover:animate-spin'
             url='https://medium.com/@avikarkaul'
             fgColor='red'
             bgColor='transparent'
             ></SocialIcon>
             <SocialIcon 
+            className='hover:animate-spin'
             url='https://github.com/akaul823'
             fgColor='red'
             bgColor='transparent'
@@ -67,7 +70,7 @@ function Header() {
         
         className='flex flex-row items-center cursor-pointer text-red-600'>
             <SocialIcon
-            className='cursor-pointer'
+            className='cursor-pointer hover:animate-spin'
             network='email'
             fgColor='red'
             bgColor='transparent'
