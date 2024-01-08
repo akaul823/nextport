@@ -29,20 +29,20 @@ function Header() {
             <SocialIcon 
             className='hover:animate-spin'
             url='https://www.linkedin.com/in/avikarkaul/'
-            fgColor='red'
+            fgColor='#991b1b'
             bgColor='transparent'
             ></SocialIcon>
 
             <SocialIcon 
             className='hover:animate-spin'
             url='https://medium.com/@avikarkaul'
-            fgColor='red'
+            fgColor='#991b1b'
             bgColor='transparent'
             ></SocialIcon>
             <SocialIcon 
             className='hover:animate-spin'
             url='https://github.com/akaul823'
-            fgColor='red'
+            fgColor='#991b1b'
             bgColor='transparent'
             ></SocialIcon>
             {/* <SocialIcon 
@@ -68,14 +68,14 @@ function Header() {
         }}
 
         
-        className='flex flex-row items-center cursor-pointer text-red-600'>
+        className='flex flex-row items-center cursor-pointer'>
             <SocialIcon
             className='cursor-pointer hover:animate-spin'
             network='email'
-            fgColor='red'
+            fgColor='#991b1b'
             bgColor='transparent'
             ></SocialIcon>
-            <p className='uppercase hidden md:inline-flex text-sm text-fuchsia-600 '>Hit me up</p>
+            <p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p>
         </motion.div>
     </header>
   )

@@ -6,12 +6,14 @@ import AboutSection from './components/AboutSection';
 import ProjectSection from './components/ProjectSection';
 import EmailSection from './components/EmailSection';
 import Footer from './components/Footer';
+import About from './components/About';
 // import Head from 'next/head';
 // cool red: bg-[rgb(96,38,38)]
 
 export default function Home() {
   return (
-    <div className="flex h-screen flex-col bg-[rgb(0,0,0)] text-fuchsia-600 snap-y snap-mandatory overflow-scroll z-0">
+    // flex h-screen flex-col 
+    <div className="h-screen bg-[rgb(0,0,0)] text-fuchsia-700 snap-y snap-mandatory overflow-scroll z-0">
 
       {/* Header */}
       <Header />
@@ -22,6 +24,9 @@ export default function Home() {
       </section>
 
       {/* About */}
+      <section id='about' className='snap-center'>
+        <About />
+      </section>
 
       {/* Experiences */}
 
