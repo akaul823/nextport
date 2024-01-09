@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection';
 import ProjectSection from './components/ProjectSection';
 import EmailSection from './components/EmailSection';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 import Skills from './components/Skills';
 import About from './components/About';
 import Experience from './components/ExperienceSection';
@@ -41,8 +42,8 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id='projects' className='snap-start'>
-        <ProjectSection />
+      <section id='projects' className='snap-center'>
+        <Projects/>
       </section>
 
       {/* Contact Me */}
