@@ -6,7 +6,9 @@ import AboutSection from './components/AboutSection';
 import ProjectSection from './components/ProjectSection';
 import EmailSection from './components/EmailSection';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
 import About from './components/About';
+import Experience from './components/ExperienceSection';
 // import Head from 'next/head';
 // cool red: bg-[rgb(96,38,38)]
 
@@ -29,10 +31,19 @@ export default function Home() {
       </section>
 
       {/* Experiences */}
+      <section id='experience' className='snap-center'>
+        <Experience />
+      </section>
 
       {/* Skills */}
+      <section id='skills' className='snap-start'>
+        <Skills />
+      </section>
 
       {/* Projects */}
+      <section id='projects' className='snap-start'>
+        {/* <ProjectSection /> */}
+      </section>
 
       {/* Contact Me */}
 
