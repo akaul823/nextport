@@ -17,6 +17,9 @@ function Skill({directionLeft}) {
         whileInView={{
             opacity: 1, x:0
         }} 
+        viewport={{
+            once: true
+        }} 
         className='object-cover w-24 h-24 xl:w-32 xl:h-32
         filter group-hover:grayscale transition duration-300 ease-in-out ' 
         />
