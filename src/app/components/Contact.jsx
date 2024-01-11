@@ -2,6 +2,7 @@
 import React from 'react'
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 import { useForm } from "react-hook-form"
+import { motion } from 'framer-motion';
 
 // I am always looking for new opportunities to learn and grow; my inbox is always open.
 // I'll do my best to get back to you as soon as possible!
@@ -24,7 +25,17 @@ function Contact() {
           });
       }
   return (
-    <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row 
+    <motion.div 
+    initial={{
+        opacity: 0
+    }}
+    whileInView={{
+        opacity: 1
+    }}
+    transition={{
+        duration: 1.5
+    }}
+    className='h-screen flex relative flex-col text-center md:text-left md:flex-row 
     max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-20 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>
             Contact
@@ -32,6 +43,7 @@ function Contact() {
         <div className='flex flex-col space-y-10'>
             <br>
             
+
             </br>
             <h4 className='text-4xl font-semibold text-center'>
                 Interested in working together? <span>Let's chat.</span>
@@ -69,7 +81,7 @@ function Contact() {
             </form>
 
         </div>
-    </div>
+    </motion.div>
   )
 }
 
