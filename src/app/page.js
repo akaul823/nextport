@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
@@ -47,6 +48,9 @@ export default function Home() {
       </section>
 
       {/* Contact Me */}
+      <section id='contact' className='snap-start'>
+        <Contact />
+      </section>
 
     </div>
   );
