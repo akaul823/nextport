@@ -2,6 +2,7 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from "framer-motion"
+import Link from 'next/link';
 // className='text-[#d2914a]'
 
 function Header() {
@@ -69,6 +70,7 @@ function Header() {
 
         
         className='flex flex-row items-center cursor-pointer'>
+            <Link href="#contact">
             <SocialIcon
             className='cursor-pointer hover:animate-spin'
             network='email'
@@ -76,6 +78,15 @@ function Header() {
             bgColor='transparent'
             ></SocialIcon>
             <p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p>
+            
+            </Link>
+            {/* <SocialIcon
+            className='cursor-pointer hover:animate-spin'
+            network='email'
+            fgColor='#991b1b'
+            bgColor='transparent'
+            ></SocialIcon>
+            <p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p> */}
         </motion.div>
     </header>
   )

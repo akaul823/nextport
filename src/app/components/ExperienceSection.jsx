@@ -17,7 +17,8 @@ function Experience() {
         <h3 className='absolute top-28 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>
             Experience
         </h3>
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 mt-10 md:mt-14 snap-x snap-mandatory'>
+        <div className='w-full flex space-x-5 overflow-x-scroll p-10 mt-10 md:mt-14 snap-x 
+        snap-mandatory scrollbar scrollbar-track-[rgb(24,24,24)] scrollbar-thumb-rose-800 scrollbar-thin'>
             {/* ExperienceCards */}
             <ExperienceCard />
             <ExperienceCard />

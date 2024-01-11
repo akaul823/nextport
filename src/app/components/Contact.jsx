@@ -30,7 +30,9 @@ function Contact() {
             Contact
         </h3>
         <div className='flex flex-col space-y-10'>
-            <br></br>
+            <br>
+            
+            </br>
             <h4 className='text-4xl font-semibold text-center'>
                 Interested in working together? <span>Let's chat.</span>
             </h4>

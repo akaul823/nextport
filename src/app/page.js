@@ -17,7 +17,8 @@ import Experience from './components/ExperienceSection';
 export default function Home() {
   return (
     // flex h-screen flex-col 
-    <div className="h-screen bg-[rgb(0,0,0)] text-fuchsia-700 snap-y snap-mandatory overflow-scroll z-0">
+    <div className="h-screen bg-[rgb(0,0,0)] text-fuchsia-700 snap-y snap-mandatory overflow-y-scroll 
+    overflow-x-hidden z-0 scrollbar scrollbar-track-[rgb(24,24,24)] scrollbar-thumb-rose-800">
 
       {/* Header */}
       <Header />

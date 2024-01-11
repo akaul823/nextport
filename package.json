@@ -19,7 +19,8 @@
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^6.7.0",
     "react-type-animation": "^3.2.0",
-    "resend": "^2.0.0"
+    "resend": "^2.0.0",
+    "tailwind-scrollbar": "^3.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
