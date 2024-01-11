@@ -29,6 +29,13 @@ function About() {
           curiosity; I am fueled by it. Challenging conventions, 
           dissecting complexities, and solving intricate problems are more than just pursuits—they are thrilling adventures with countless possibilities.
         </p>
+        <p className='text-sm md:text-base lg:text-lg text-rose-800'>
+          I am a passionate explorer, ever on a journey of discovery—whether it's treading new physical terrains, diving deep into intellectual 
+          challenges, or embarking on spiritual quests to unearth 
+          deeper layers of self-awareness. I am not just driven by 
+          curiosity; I am fueled by it. Challenging conventions, 
+          dissecting complexities, and solving intricate problems are more than just pursuits—they are thrilling adventures with countless possibilities.
+        </p>
       </div>
     </motion.div>
   )
