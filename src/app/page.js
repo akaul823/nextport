@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import About from './components/About';
 import Experience from './components/ExperienceSection';
+import Link from 'next/link';
 // import Head from 'next/head';
 // cool red: bg-[rgb(96,38,38)]
 
@@ -52,6 +53,16 @@ export default function Home() {
       <section id='contact' className='snap-start'>
         <Contact />
       </section>
+
+      <Link href="#hero">
+        <footer className='sticky bottom-4 w-full cursor-pointer'>
+          <div className='flex items-center justify-center'>
+            <img className="h-14 w-14 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" src="/images/coolLogo.png" />
+          
+          </div>
+        </footer>
+      </Link>
+        
 
     </div>
   );

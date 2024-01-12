@@ -21,6 +21,9 @@ function About() {
         className='mb-1 md:mb-0 flex-shrink-0 w-32 h-32 md:w-64 md:h-64 xl:w-[350px] xl:h-[350px] sm:w-[150px] sm:h-[150px] rounded-full border border-rose-800 object-cover'
       />
       <div className='space-y-0 md:space-y-10 px-0 md:px-10'>
+        <br>
+        
+        </br>
         <h3 className='text-2xl md:text-4xl font-semibold font-style: italic hover:not-italic'>Get to know me</h3>
         <p className='text-sm md:text-base lg:text-lg text-rose-800'>
           I am a passionate explorer, ever on a journey of discovery—whether it's treading new physical terrains, diving deep into intellectual 

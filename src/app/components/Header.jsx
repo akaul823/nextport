@@ -52,6 +52,8 @@ function Header() {
             bgColor='transparent'
             ></SocialIcon> */}
         </motion.div>
+
+        <Link href="#contact">
         <motion.div 
         initial={{
             x: 500,
@@ -67,10 +69,8 @@ function Header() {
         transition={{
             duration: 1.5,
         }}
-
-        
         className='flex flex-row items-center cursor-pointer'>
-            <Link href="#contact">
+            
             <SocialIcon
             className='cursor-pointer hover:animate-spin'
             network='email'
@@ -79,7 +79,7 @@ function Header() {
             ></SocialIcon>
             <p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p>
             
-            </Link>
+            
             {/* <SocialIcon
             className='cursor-pointer hover:animate-spin'
             network='email'
@@ -88,6 +88,7 @@ function Header() {
             ></SocialIcon>
             <p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p> */}
         </motion.div>
+        </Link>
     </header>
   )
 }
