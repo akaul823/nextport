@@ -53,7 +53,6 @@ function Header() {
             ></SocialIcon> */}
         </motion.div>
 
-        <Link href="#contact">
         <motion.div 
         initial={{
             x: 500,
@@ -76,8 +75,10 @@ function Header() {
             network='email'
             fgColor='#991b1b'
             bgColor='transparent'
+            url="#contact"
             ></SocialIcon>
-            <p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p>
+            <Link href="#contact"><p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p></Link>
+            
             
             
             {/* <SocialIcon
@@ -88,7 +89,6 @@ function Header() {
             ></SocialIcon>
             <p className='uppercase hidden md:inline-flex text-sm text-rose-800 hover:text-fuchsia-800 '>Hit me up</p> */}
         </motion.div>
-        </Link>
     </header>
   )
 }
