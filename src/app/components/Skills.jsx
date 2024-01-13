@@ -6,9 +6,6 @@ import Skill from './Skill';
 function Skills() {
   const skillsData = [
     {
-      src: 'images/Python.png', name: 'Python', proficiency: ''
-    },
-    {
       src: 'images/JavaScript.png', name: 'JavaScript', proficiency: ''
     },
     {
@@ -18,19 +15,22 @@ function Skills() {
       src: 'images/React.png', name: 'React', proficiency: ''
     },
     {
-      src: 'images/Node.js.png', name: 'Node', proficiency: ''
+      src: 'images/Figma.png', name: 'Figma', proficiency: ''
     },
     {
-      src: 'images/R.png', name: 'R', proficiency: ''
+      src: 'images/Tailwind CSS.png', name: 'Tailwind', proficiency: ''
     },
     {
-      src: 'images/Git.png', name: 'Git', proficiency: ''
+      src: 'images/Python.png', name: 'Python', proficiency: ''
+    },
+    {
+      src: 'images/TensorFlow.png', name: 'Tensor', proficiency: ''
     },
     {
       src: 'images/PyTorch.png', name: 'PyTorch', proficiency: ''
     },
     {
-      src: 'images/Tailwind CSS.png', name: 'Tailwind', proficiency: ''
+      src: 'images/R.png', name: 'R', proficiency: ''
     },
     {
       src: 'images/SQLite.png', name: 'SQL', proficiency: ''
@@ -42,13 +42,13 @@ function Skills() {
       src: 'images/SQLAlchemy.png', name: 'SQLA', proficiency: ''
     },
     {
-      src: 'images/TensorFlow.png', name: 'Tensor', proficiency: ''
+      src: 'images/Git.png', name: 'Git', proficiency: ''
     },
     {
       src: 'images/JSON.png', name: 'json', proficiency: ''
     },
     {
-      src: 'images/Figma.png', name: 'Figma', proficiency: ''
+      src: 'images/Node.js.png', name: 'Node', proficiency: ''
     },
     {
       src: 'images/C++ (CPlusPlus).png', name: 'C++', proficiency: 'Learning'
