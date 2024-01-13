@@ -97,16 +97,16 @@ return (
             </div>
           </div>
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-            <h4 className='text-4xl font-semibold text-center'>
-              <span className='underline decoration-rose-900'>Project {index + 1} of {projectsData2.length}:</span> {project.title}
+            <h4 className='text-4xl font-semibold text-center text-fuchsia-800'>
+              {project.title}
             </h4>
-            <p className='text-rose-800 text-lg text-center md:text-left'>{project.description}</p>
+            <p className='text-rose-900 text-lg text-center md:text-left'>{project.description}</p>
           </div>
         </div>
       ))}
     </div>
-
-    <div className='w-full absolute top-[30%] bg-rose-800 bg-opacity-40 left-0 h-[400px] skew-y-12'/>
+{/* <span className=' underline decoration-rose-900 text-fuchsia-800'>Project {index + 1} of {projectsData2.length}:</span> */}
+    {/* <div className='w-full absolute top-[30%] bg-rose-800 bg-opacity-40 left-0 h-[400px] skew-y-12'/> */}
   </motion.div>
 );
 }

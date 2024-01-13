@@ -55,9 +55,10 @@ const ProjectSection = () => {
 
   return (
     <div className='h-screen'>
-    <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-    <h3 className="text-center text-2xl font-bold text-white mt-6 mb-2 md:mb-12">My Projects</h3>
-    <ProjectTag
+      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <h3 className="text-center text-2xl font-bold text-white mt-6 mb-2 md:mb-12">My Projects</h3>
+      <div>
+        <ProjectTag
           onClick={handleTagChange}
           name="All"
           isSelected={tag === "All"}
@@ -82,6 +83,8 @@ const ProjectSection = () => {
           name="Hardware"
           isSelected={tag === "Hardware"}
         />
+      </div>
+
 
     </div>
     <div className='grid md:grid-cols3 gap-8 md:gap-12'>
