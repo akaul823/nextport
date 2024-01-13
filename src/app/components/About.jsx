@@ -8,7 +8,7 @@ function About() {
     <motion.div 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: 2.5 }}
+      transition={{ duration: 1.5 }}
       className='flex flex-col md:flex-row relative h-screen text-center md:text-left max-w-7xl px-5 md:px-10 justify-center mx-auto items-center'
     >
       <h3 className='absolute top-20 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>About</h3>
@@ -35,9 +35,7 @@ function About() {
         <p className='text-sm md:text-base lg:text-lg text-rose-800'>
           I am a passionate explorer, ever on a journey of discovery—whether it's treading new physical terrains, diving deep into intellectual 
           challenges, or embarking on spiritual quests to unearth 
-          deeper layers of self-awareness. I am not just driven by 
-          curiosity; I am fueled by it. Challenging conventions, 
-          dissecting complexities, and solving intricate problems are more than just pursuits—they are thrilling adventures with countless possibilities.
+          deeper layers of self-awareness. 
         </p>
       </div>
     </motion.div>

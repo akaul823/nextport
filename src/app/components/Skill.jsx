@@ -8,7 +8,7 @@ function Skill({src, name, proficiency, directionLeft}) {
         <motion.img
         src={src}
         initial={{
-            x: directionLeft ? -200:200,
+            x: (window.innerWidth <= 768)?0: (directionLeft ? -200:200),
             opacity: 0,
         }}
         transition={{

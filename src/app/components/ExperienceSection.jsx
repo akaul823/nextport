@@ -13,7 +13,7 @@ function Experience() {
       company: "Microgrid Labs",
       startDate: "December 2023",
       endDate: "present",
-      tech: " ",
+      tech: ["/images/React.png","/images/Figma.png"],
       description: [
         "Worked in a team to revamp the website",
         "Implemented principles of the Software Development Life Cycle",
@@ -26,7 +26,7 @@ function Experience() {
       company: "Flatiron School",
       startDate: "May 2023",
       endDate: "September 2023",
-      tech: "",
+      tech: ["/images/JavaScript.png","/images/Python.png", "/images/React.png","/images/Flask.png","/images/SQLAlchemy.png","/images/SQLite.png","/images/TensorFlow.png","/images/PyTorch.png"],
       description: [
         "Full stack software engineering bootcamp where I learned front and backend technologies and practices to create a seamless client to server connection",
         "Started a technical blog, 'Into the Software-Verse', exploring the similarities between human and machine learning (click the M at the top left)",
@@ -35,6 +35,7 @@ function Experience() {
       imageUrl: "/images/flatiron.png",
     },
   ];
+  const tech = ["/images/Python.png", "/images/PyTorch.png"]
   // Dom manipulation and connecting to the server, API and Database creation and management, Object oriented programming and object relational mapping
   
   return (
