@@ -6,6 +6,38 @@ import ExperienceCard from './ExperienceCard';
 //     xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center
 
 function Experience() {
+  const experiences = [
+    {
+      id: 1,
+      title: "Software Development Intern",
+      company: "Microgrid Labs",
+      startDate: "December 2023",
+      endDate: "present",
+      tech: " ",
+      description: [
+        "Summary Point 1",
+        "Summary Point 2",
+        "Summary Point 3",
+        "Summary Point 4",
+      ],
+      imageUrl: "/images/tester.png",
+    },
+    {
+      id: 2,
+      title: "Software Engineering Student",
+      company: "Flatiron School",
+      startDate: "May 2023",
+      endDate: "September 2023",
+      tech: "",
+      description: [
+        "Summary Point 1",
+        "Summary Point 2",
+        "Summary Point 3",
+      ],
+      imageUrl: "/images/flatiron.png",
+    },
+  ];
+  
   return (
     <motion.div 
     initial={{ opacity: 0 }}
@@ -23,10 +55,9 @@ function Experience() {
         <div className='w-full flex space-x-5 overflow-x-scroll p-10 mt-10 md:mt-14 snap-x 
         snap-mandatory scrollbar-track-[rgb(24,24,24)] scrollbar-thumb-rose-800 scrollbar-thin'>
             {/* ExperienceCards */}
-            <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
+            {experiences.map(experience => (
+            <ExperienceCard key={experience.id} experience={experience} />
+          ))}
         </div>
     </motion.div>
   )
