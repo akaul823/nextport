@@ -15,10 +15,8 @@ function Experience() {
       endDate: "present",
       tech: " ",
       description: [
-        "Summary Point 1",
-        "Summary Point 2",
-        "Summary Point 3",
-        "Summary Point 4",
+        "Worked in a team to revamp the website",
+        "Implemented principles of the Software Development Life Cycle",
       ],
       imageUrl: "/images/tester.png",
     },
@@ -30,9 +28,9 @@ function Experience() {
       endDate: "September 2023",
       tech: "",
       description: [
-        "Summary Point 1",
-        "Summary Point 2",
-        "Summary Point 3",
+        "Full stack software engineering bootcamp where I learned front and backend technologies and practices to create a seamless client to server connection",
+        "Started a technical blog, 'Into the Software-Verse', exploring the similarities between human and machine learning (click the M at the top left)",
+        "Integrated full stack curriculum with mobile development and computer vision that culminated in my capstone project",
       ],
       imageUrl: "/images/flatiron.png",
     },
@@ -46,7 +44,7 @@ function Experience() {
     
     className='h-screen flex relative overflow-hidden flex-col text-left md:flex-row
     max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-28 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>
+        <h3 className='absolute top-28 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800 z-20'>
             Experience
         </h3>
         <br>

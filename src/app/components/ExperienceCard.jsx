@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 function ExperienceCard({experience}) {
   return (
     // border rounded-md border-rose-800
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[rgb(13,13,13)] p-2 hover:opacity-100 opacity-100 md:opacity-60 lg:opacity-60 xl:opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden '>
+    <article className='flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[rgb(13,13,13)] p-2 hover:opacity-100 opacity-100 md:opacity-60 lg:opacity-60 xl:opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden '>
         <motion.img 
         initial={{
             y: -100,
@@ -28,11 +28,14 @@ function ExperienceCard({experience}) {
             <p className='font-bold text-2xl mt-1 text-rose-800'>{experience.company}</p> 
             <div className='flex space-x-2 my-2'>
                 {/* Tech Used */}
+                <img src="/images/Python.png" className='h-10 w-10' />
+                {/* <img src={experience.tech} /> */}
                 {/* Tech Used */}
                 {/* Tech Used */}
+                {/* I need to create an array and map out the tech icons used/learned */}
             </div>
             <p className='uppercase py-5'>{`${experience.startDate} - ${experience.endDate}`}</p>
-            <ul className='list-disc space-y-4 ml-5 text-lg text-rose-800'>
+            <ul className='list-disc space-y-4 ml-5 text-md text-rose-800'>
                 {experience.description.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}

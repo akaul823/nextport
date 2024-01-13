@@ -28,7 +28,7 @@ function Skill({src, name, proficiency, directionLeft}) {
         ease-in-out h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full
         z-0'>
             <div className='flex items-center justify-center h-full'>
-                <p className='text-white text-3xl font-bold opacity-100'>
+                <p className='text-rose-800 text-3xl font-bold opacity-100'>
                     {proficiency}
                 </p>
             </div>
