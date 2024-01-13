@@ -35,6 +35,7 @@ function Experience() {
       imageUrl: "/images/flatiron.png",
     },
   ];
+  // Dom manipulation and connecting to the server, API and Database creation and management, Object oriented programming and object relational mapping
   
   return (
     <motion.div 
