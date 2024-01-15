@@ -15,7 +15,8 @@ function Experience() {
       endDate: "present",
       tech: ["/images/React.png","/images/Figma.png"],
       description: [
-        "Worked in a team to revamp the website",
+        "Coloborated in a team to revamp and improve the current website",
+        "Worked to implement API as a service",
         "Implemented principles of the Software Development Life Cycle",
       ],
       imageUrl: "/images/tester.png",
