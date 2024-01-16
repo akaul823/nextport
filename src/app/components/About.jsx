@@ -5,10 +5,7 @@ import { motion } from 'framer-motion';
 
 function About() {
   return (
-    <motion.div 
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
+    <div
       className='flex flex-col md:flex-row relative h-screen text-center md:text-left max-w-7xl px-5 md:px-10 justify-center mx-auto items-center'
     >
       <h3 className='absolute top-20 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>About</h3>
@@ -22,22 +19,22 @@ function About() {
       />
       <div className='space-y-0 md:space-y-10 px-0 md:px-10'>
         <br>
-        
         </br>
         <h3 className='text-2xl md:text-4xl font-semibold font-style: italic hover:not-italic'>Get to know me</h3>
         <p className='text-sm md:text-base lg:text-base text-rose-800'>
           My name is Avikar Shiv Kaul, and by trade, I am a software engineer. Since childhood, I have had a deep curiosity and fascination with the world around me, problem solving, and puzzles, especially those that took me a lot of time and effort to figure out. In order to satiate this curiosity in an 
           applicable way, I decided to earn my bachelors degree in political science focussing on international relations and comparative politics, looking to explore and understand the dynamics of the grand game that occupies the world we live in. I was able to explore this puzzle in both a normative
-          and empirical way, and it is from the latter that I realized my calling in providing solutions through engineering software. I was given large and chaotic datasets and tasked with finding a way to use that information to support my normative claims. I loved the idea of taking a bunch of seemingly random numbers and using them to 
-          tell a story. When creating these mechanisms, I found many exciting similarities between how I was programming the computer and how I learned things. I continued my journey at Flatiron School where I earned a certification in Software Engineering and the tools to learn how to learn. This toolbelt enabled me to further examine the similarities in human and machine learning
-          in my capstone project, where I built a mobile app that classifies flowers by image.
+          and empirical way, and it is from the latter that I realized my calling in providing solutions through engineering software. I was given large and chaotic datasets and tasked with finding a way to use that information to support my normative claims. <span className='text-fuchsia-800'>I loved the idea of taking a bunch of seemingly random numbers and using them to tell a story. </span> 
+          When creating these mechanisms, I found many exciting similarities between how I was programming the computer and how I learned things. I continued my journey at Flatiron School where I earned a certification in Software Engineering and the tools to learn how to learn. This toolbelt enabled me to further examine the similarities in human and machine learning
+          in my capstone project, where I built a mobile app that implements computer vision to classify flowers.
         </p>
+
         <p className='text-sm md:text-base lg:text-base text-rose-800'>
-          I am versed in front and backend development and am currently learning more about machine learning and expanding my skillset to integrate software and hardware that I build. Outside of a professional setting,
+          I am versed in front and backend development, and I am currently learning more about machine learning and expanding my skillset to integrate software and hardware that I build. Outside of a professional setting,
           you can find me training for an Ironman 140.6 triathlon, learning about nonlinear dynamics and chaos, training Muay Thai, or reading/watching One Piece.
         </p>
       </div>
-    </motion.div>
+    </div>
   )
 }
 

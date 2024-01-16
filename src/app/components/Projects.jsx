@@ -2,7 +2,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { SocialIcon } from 'react-social-icons'
-import ProjectTag from './ProjectTag'
 import { useState } from 'react';
 
 function Projects() {
