@@ -13,7 +13,7 @@ function Experience() {
       company: "Microgrid Labs",
       startDate: "December 2023",
       endDate: "present",
-      tech: ["/images/React.png","/images/Figma.png"],
+      tech: ["/images/React.png","/images/Figma.png","/images/Python.png","/images/Flask.png"],
       description: [
         "Actively engaged in a dynamic team environment, focusing on a major overhaul of Microgrid Labs' website to elevate the user experience to new heights.",
         "Spearheading the integration of cutting-edge API services, streamlining data flow and enhancing interactivity for a seamless user experience.",
