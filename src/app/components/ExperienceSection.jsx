@@ -52,7 +52,7 @@ function Experience() {
         <br>
    
         </br>
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 mt-10 md:mt-14 snap-x 
+        <div className='w-screen md:w-full flex space-x-5 overflow-x-scroll p-10 mt-10 md:mt-14 snap-x 
         snap-mandatory scrollbar-track-[rgb(24,24,24)] scrollbar-thumb-rose-800 scrollbar-thin'>
             {/* ExperienceCards */}
             {experiences.map(experience => (
