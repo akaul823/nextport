@@ -74,7 +74,7 @@ function Skills() {
       
         <h3 className='absolute top-24 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>Skills</h3>
         <h3 className='absolute top-36 uppercase tracking-[3px] text-sm opacity-60'>Check out my stack!</h3>
-        <div className='grid grid-cols-6 gap-5'>
+        <div className='grid grid-cols-6 gap-5 p-5 w-full'>
           {skillsData.map((skill, index)=>(
             <Skill key={index} src={skill.src} name={skill.name} proficiency={skill.proficiency} />
 

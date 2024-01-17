@@ -1,16 +1,32 @@
 "use client";
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { motion } from 'framer-motion';
 
 function Skill({src, name, proficiency, directionLeft}) {
+    const [isLargeScreen, setIsLargeScreen] = useState(typeof window !== 'undefined' && window.innerWidth > 768);
+
+    useEffect(() => {
+      const checkIfLargeScreen = () => {
+        console.log("Checking screen size"); // Debugging
+        const isLarge = window.innerWidth > 768;
+        console.log("Is large screen:", isLarge); // Debugging
+        setIsLargeScreen(isLarge);
+      };
+
+      checkIfLargeScreen();
+      window.addEventListener('resize', checkIfLargeScreen);
+
+      return () => window.removeEventListener('resize', checkIfLargeScreen);
+    }, []);
+
   return (
     <div className='group relative flex cursor-pointer md:hover:animate-bounce lg:hover:animate-bounce xl:hover:animate-bounce'>
         <motion.img
         src={src}
-        initial={{
-            x:(directionLeft ? -200:200),
-            opacity: 0,
-        }}
+           initial={{
+                x: isLargeScreen ? (directionLeft ? -200 : 200) : 0,
+                opacity: 0,
+            }}
         transition={{
             duration: 1,
         }}
