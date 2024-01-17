@@ -36,7 +36,7 @@ function Skill({src, name, proficiency, directionLeft}) {
         viewport={{
             once: true
         }} 
-        className='object-cover w-24 h-24 xl:w-32 xl:h-32
+        className='object-cover w-12 h-12 md:w-24 md:h-24 xl:w-32 xl:h-32
         filter' 
         />
         {/* group-hover:grayscale transition duration-300 ease-in-out */}
