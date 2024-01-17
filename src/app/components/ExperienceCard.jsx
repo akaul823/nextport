@@ -30,9 +30,6 @@ function ExperienceCard({experience}) {
                 {experience.tech.map((icon, index) => (
                   <img key={index} src={icon} className='h-10 w-10 hover:animate-bounce' />
                 ))}
-                {/* Tech Used */}
-                {/* Tech Used */}
-                {/* I need to create an array and map out the tech icons used/learned */}
             </div>
             <p className='uppercase py-5'>{`${experience.startDate} - ${experience.endDate}`}</p>
             <ul className='list-disc space-y-4 ml-5 text-md text-rose-800'>

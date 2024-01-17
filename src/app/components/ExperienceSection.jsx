@@ -36,7 +36,6 @@ function Experience() {
       imageUrl: "/images/flatiron.png",
     },
   ];
-  const tech = ["/images/Python.png", "/images/PyTorch.png"]
   // Dom manipulation and connecting to the server, API and Database creation and management, Object oriented programming and object relational mapping
   
   return (
@@ -45,9 +44,9 @@ function Experience() {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 2.5 }}
     
-    className='h-screen flex relative overflow-hidden flex-col text-left md:flex-row
+    className='min-h-screen flex relative overflow-hidden flex-col text-left md:flex-row
     max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-28 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800 z-20'>
+        <h3 className='absolute top-24 md:top-20 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800 z-20'>
             Experience
         </h3>
         <br>
