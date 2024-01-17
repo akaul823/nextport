@@ -17,6 +17,7 @@ function About() {
           initial={{ x: -200, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1.0 }}
+          viewport={{once:true}}
           src="/images/ironman.jpeg" 
           className='w-32 h-32 md:w-64 md:h-64 xl:w-[350px] xl:h-[350px] rounded-full border border-rose-800 object-cover'
         />
@@ -25,17 +26,14 @@ function About() {
         {/* className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-900 scrollbar-thumb-rose-800' */}
         <div className='space-y-6'>
           <h3 className='text-2xl md:text-4xl font-semibold italic hover:not-italic'>Get to know me</h3>
-          <p className='text-sm md:text-base lg:text-base text-rose-800'>
-            My name is Avikar Shiv Kaul, and by trade, I am a software engineer. Since childhood, I have had a deep curiosity and fascination with the world around me, problem solving, and puzzles, especially those that took me a lot of time and effort to figure out. In order to satiate this curiosity in an 
-            applicable way, I decided to earn my bachelor's degree in political science focussing on international relations and comparative politics, looking to explore and understand the dynamics of the grand game that occupies the world we live in. I was able to explore this puzzle in both a normative
-            and empirical way, and it is from the latter that I realized my calling in providing solutions through engineering software. I was given large and chaotic datasets and tasked with finding a way to use that information to support my normative claims. <span className='text-fuchsia-800'>I loved the idea of taking a bunch of seemingly random numbers and using them to tell a story. </span> 
-            When creating these mechanisms, I found many exciting similarities between how I was programming the computer and how I learned things. I continued my journey at Flatiron School where I earned a certification in Software Engineering and the tools to learn how to learn. This toolbelt enabled me to further examine the similarities in human and machine learning
-            in my capstone project, where I built a mobile app that implements computer vision to classify flowers.
+          <p className='text-xs md:text-base lg:text-base text-rose-800'>
+            Since childhood, I have had a deep curiosity and fascination with the world around me and how it works. In order to satiate this curiosity in an 
+            applicable way, I decided to earn my bachelor's degree in political science focussing on international relations and comparative politics, looking to explore and understand the dynamics of the grand game that occupy the world we live in. I was able to explore this puzzle in both a normative
+            and empirical way, and it is from the latter that I realized my fascination and calling in providing solutions through engineering software. <span className='text-fuchsia-800'>I loved the idea of taking a bunch of seemingly random numbers and using them to tell a story. </span> 
+            When creating these mechanisms, I found many exciting similarities between how I was programming the computer and how I learned things.
           </p>
-          <p className='text-sm md:text-base lg:text-base text-rose-800'>
-            I am versed in front and backend development, and I am currently learning more about machine learning and expanding my skillset to integrate software and hardware that I build. Outside of a professional setting,
-            you can find me training for an Ironman 140.6 triathlon, learning about nonlinear dynamics and chaos, training Muay Thai, or reading/watching One Piece.
-          </p>
+          <p className='text-xs md:text-base lg:text-base text-rose-800'> I am versed in front and backend development, and I am currently learning more about machine learning and expanding my skillset to integrate software and hardware that I build. Outside of a professional setting,
+            you can find me training for an Ironman 140.6 triathlon, learning about nonlinear dynamics and chaos, training Muay Thai, or reading/watching One Piece. </p>
         </div>
       </div>
     </div>
@@ -43,3 +41,4 @@ function About() {
 }
 
 export default About;
+
