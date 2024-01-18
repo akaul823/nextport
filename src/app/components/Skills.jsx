@@ -68,20 +68,19 @@ function Skills() {
     }}
     whileInView={{opacity:1}}
     transition={{duration:1.5}}
-    
-    className='min-h-screen flex relative overflow-hidden flex-col text-center md:text-left md:flex-row
-    xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center pt-36 md:pt-40 z-0'>
+    className='min-h-screen flex overflow-hidden flex-col text-left
+    max-w-full px-10 justify-evenly mx-auto items-center'>
       
-        <h3 className='absolute top-24 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>Skills</h3>
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-sm opacity-60'>Check out my stack!</h3>
-        <div className='grid grid-cols-6 gap-5 p-5 w-full'>
+        <h3 className='top-24 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl mt-5 md:mt-0 text-rose-800'>Skills</h3>
+        {/* <h3 className='top-36 uppercase tracking-[3px] text-lg md:text-lg opacity-60'>Check out my stack!</h3> */}
+        <div className='grid grid-cols-6 gap-8 p-5 w-full bg-fuchsia-800 bg-opacity-60 border rounded-lg border-fuchsia-900'>
           {skillsData.map((skill, index)=>(
             <Skill key={index} src={skill.src} name={skill.name} proficiency={skill.proficiency} />
 
           )
           )}
         </div>
-      <div className='w-full absolute top-[30%] bg-rose-800 bg-opacity-50 right-0 h-[400px] skew-y-12 z-[-1]'/>
+      {/* <div className='w-full absolute top-[30%] bg-rose-800 bg-opacity-50 right-0 h-[400px] skew-y-12 z-[-1]'/> */}
     </motion.div> 
     
   )
