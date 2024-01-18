@@ -18,13 +18,13 @@ function About() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1.0 }}
           viewport={{once:true}}
-          src="/images/nyc.png" 
-          className='w-34 h-32 md:w-[400px] md:h-[400px] border rounded-full border-rose-800 object-cover'
+          src="/images/wedding.jpeg" 
+          className='w-[170px] h-[170px] md:w-[450px] md:h-[450px] border rounded-full border-rose-800 object-cover'
         />
 
         {/* Text content */}
         {/* className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-900 scrollbar-thumb-rose-800' */}
-        <div className='space-y-5'>
+        <div className='space-y-3 md:space-y-5'>
           <h3 className='text-2xl md:text-4xl font-semibold italic hover:not-italic'>Get to know me</h3>
           <p className='text-sm md:text-base lg:text-base text-rose-800'>
             Since childhood, I have had a deep curiosity and fascination with the world around me and how it works. In order to satiate this curiosity in an 
