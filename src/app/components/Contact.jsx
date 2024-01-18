@@ -35,10 +35,10 @@ function Contact() {
     }}
     className='min-h-screen flex overflow-hidden flex-col text-left
     max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='top-20 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl mt-16 text-rose-800'>
+        <h3 className='top-24 md:top-20 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl mt-16 text-rose-800'>
             Contact
         </h3>
-        <div className='flex flex-col space-y-8 mt-2'>
+        <div className='flex flex-col space-y-8 mt-0'>
             <h4 className='text-lg md:text-4xl font-semibold text-center'>
                 Interested in working together? <span>Let's chat.</span>
             </h4>
