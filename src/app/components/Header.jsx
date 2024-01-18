@@ -28,20 +28,20 @@ function Header() {
         className='flex flex-row items-center'>
             {/* Social Icons */}
             <SocialIcon 
-            className='hover:animate-spin'
+            className='md:hover:animate-spin'
             url='https://www.linkedin.com/in/avikarkaul/'
             fgColor='#991b1b'
             bgColor='transparent'
             ></SocialIcon>
 
             <SocialIcon 
-            className='hover:animate-spin'
+            className='md:hover:animate-spin'
             url='https://medium.com/@avikarkaul'
             fgColor='#991b1b'
             bgColor='transparent'
             ></SocialIcon>
             <SocialIcon 
-            className='hover:animate-spin'
+            className='md:hover:animate-spin'
             url='https://github.com/akaul823'
             fgColor='#991b1b'
             bgColor='transparent'
@@ -71,7 +71,7 @@ function Header() {
         className='flex flex-row items-center cursor-pointer'>
             
             <SocialIcon
-            className='cursor-pointer hover:animate-spin'
+            className='cursor-pointer md:hover:animate-spin'
             network='email'
             fgColor='#991b1b'
             bgColor='transparent'

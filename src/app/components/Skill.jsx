@@ -39,7 +39,7 @@ function Skill({src, name, proficiency, directionLeft}) {
         filter' 
         />
         {/* group-hover:grayscale transition duration-300 ease-in-out */}
-        <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300
+        <div className='absolute opacity-0 md:group-hover:opacity-100 transition duration-300
         ease-in-out h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full
         z-0'>
             <div className='flex items-center justify-center h-full'>
