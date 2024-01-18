@@ -35,19 +35,15 @@ function Contact() {
     }}
     className='min-h-screen flex overflow-hidden flex-col text-left
     max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='top-20 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>
+        <h3 className='top-20 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl mt-16 text-rose-800'>
             Contact
         </h3>
-        <div className='flex flex-col space-y-10'>
-            <br>
-            
-
-            </br>
+        <div className='flex flex-col space-y-8 mt-2'>
             <h4 className='text-lg md:text-4xl font-semibold text-center'>
                 Interested in working together? <span>Let's chat.</span>
             </h4>
 
-            <div className='space-y-10'>
+            <div className='space-y-2'>
                 <div className='flex items-center space-x-5 justify-center'>
                     <PhoneIcon className='text-rose-800 h-7 w-7 animate-pulse ' /> 
                     <p className='text-rose-800 text-lg md:text-2xl'>(201)-249-1471</p>
