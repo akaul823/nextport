@@ -60,14 +60,15 @@ return (
     initial={{ opacity:0 }}
     whileInView={{ opacity:1 }}
     transition={{ duration: 2 }} 
-    className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
+    className='min-h-screen flex overflow-hidden flex-col text-left
+    max-w-full px-10 justify-evenly mx-auto items-center'>
     
-    <h3 className='absolute top-24 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800'>
+    <h3 className='top-24 md:top-20 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800 z-20 mt-16'>
       Projects
     </h3>
-    <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-900 scrollbar-thumb-rose-800'> 
+    <div className='w-screen flex overflow-x-scroll overflow-y-hidden p-10 mt-1 snap-x snap-mandatory z-0 scrollbar scrollbar-track-gray-900 scrollbar-thumb-rose-800'> 
       {filteredProjects.map((project, index) => (
-        <div key={project.id} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+        <div key={project.id} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-30 h-auto'>
           <div className='relative group'>
             <motion.img 
               initial={{ y: -300, opacity: 0 }}
