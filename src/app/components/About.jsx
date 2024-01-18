@@ -18,8 +18,8 @@ function About() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1.0 }}
           viewport={{once:true}}
-          src="/images/ironman.jpeg" 
-          className='w-32 h-32 md:w-64 md:h-64 xl:w-[350px] xl:h-[350px] rounded-full border border-rose-800 object-cover'
+          src="/images/nyc.png" 
+          className='w-34 h-32 md:w-[400px] md:h-[400px] border rounded-full border-rose-800 object-cover'
         />
 
         {/* Text content */}
