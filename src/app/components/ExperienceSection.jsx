@@ -44,15 +44,12 @@ function Experience() {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 2.5 }}
     
-    className='min-h-screen flex relative overflow-hidden flex-col text-left md:flex-row
+    className='min-h-screen flex overflow-hidden flex-col text-left
     max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 md:top-20 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800 z-20'>
+        <h3 className='top-24 md:top-20 uppercase tracking-[10px] md:tracking-[20px] text-lg md:text-2xl text-rose-800 z-20 mt-16'>
             Experience
         </h3>
-        <br>
-   
-        </br>
-        <div className='w-screen md:w-full flex space-x-5 overflow-x-scroll p-10 mt-10 md:mt-14 snap-x 
+        <div className='w-screen md:w-full flex space-x-5 overflow-x-scroll p-10 mt-3 snap-x 
         snap-mandatory scrollbar-track-[rgb(24,24,24)] scrollbar-thumb-rose-800 scrollbar-thin'>
             {/* ExperienceCards */}
             {experiences.map(experience => (
