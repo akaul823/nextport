@@ -18,11 +18,11 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section id='about' className='snap-end'>
+      <section id='about' className='snap-start'>
         <About />
       </section>
 
-      <section id='experience' className='snap-center'>
+      <section id='experience' className='snap-start'>
         <Experience />
       </section>
 
