@@ -51,7 +51,7 @@ function Skills() {
       src: 'images/Node.js.png', name: 'Node', proficiency: ''
     },
     {
-      src: 'images/C++ (CPlusPlus).png', name: 'C++', proficiency: 'Learning'
+      src: 'images/Cplus.png', name: 'C++', proficiency: 'Learning'
     },
     {
       src: 'images/Arduino.png', name: 'Arduino', proficiency: 'Learning'
