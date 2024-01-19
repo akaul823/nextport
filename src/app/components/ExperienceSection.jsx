@@ -27,7 +27,7 @@ function Experience() {
       company: "Flatiron School",
       startDate: "May 2023",
       endDate: "September 2023",
-      tech: ["/images/HTML5.png","images/CSS3.png","/images/JavaScript.png","/images/Python.png", "/images/React.png","/images/Next.js.png","/images/Flask.png","/images/SQLAlchemy.png","/images/SQLite.png","/images/TensorFlow.png","/images/PyTorch.png"],
+      tech: ["/images/HTML5.png","/images/CSS3.png","/images/JavaScript.png", "/images/React.png","/images/Python.png","/images/Flask.png","/images/SQLite.png","/images/PyTorch.png"],
       description: [
         "Full stack software engineering bootcamp where I learned front and backend technologies and practices to create a seamless client to server connection",
         "Started a technical blog, 'Into the Software-Verse', exploring the similarities between human and machine learning",

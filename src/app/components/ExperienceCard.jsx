@@ -1,6 +1,7 @@
 "use client";
 import React from 'react'
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 function ExperienceCard({experience}) {
   return (
@@ -29,7 +30,7 @@ function ExperienceCard({experience}) {
             <p className='font-bold text-xl md:text-2xl mt-1 text-rose-800'>{experience.company}</p> 
             <div className='flex space-x-2 my-2 bg-fuchsia-800 rounded-full items-center justify-center'>
                 {experience.tech.map((icon, index) => (
-                  <img key={index} src={icon} className='h-10 w-10 hover:animate-bounce' />
+                  <Image key={index} width={10} height={10} src={icon} alt='tech' className='h-10 w-10 hover:animate-bounce' />
                 ))}
             </div>
             <p className='uppercase py-5'>{`${experience.startDate} - ${experience.endDate}`}</p>
