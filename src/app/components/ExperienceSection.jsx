@@ -27,7 +27,7 @@ function Experience() {
       company: "Flatiron School",
       startDate: "May 2023",
       endDate: "September 2023",
-      tech: ["/images/JavaScript.png","/images/Python.png", "/images/React.png","/images/Flask.png","/images/SQLAlchemy.png","/images/SQLite.png","/images/TensorFlow.png","/images/PyTorch.png"],
+      tech: ["/images/HTML5.png","images/CSS3.png","/images/JavaScript.png","/images/Python.png", "/images/React.png","/images/Flask.png","/images/SQLAlchemy.png","/images/SQLite.png","/images/TensorFlow.png","/images/PyTorch.png"],
       description: [
         "Full stack software engineering bootcamp where I learned front and backend technologies and practices to create a seamless client to server connection",
         "Started a technical blog, 'Into the Software-Verse', exploring the similarities between human and machine learning",
@@ -35,6 +35,20 @@ function Experience() {
       ],
       imageUrl: "/images/flatiron.png",
     },
+    // {
+    //   id: 3,
+    //   title: "Student",
+    //   company: "University of Pittsburgh",
+    //   startDate: "September 2018",
+    //   endDate: "April 2023",
+    //   tech: ["/images/Python.png", "/images/R.png"],
+    //   description: [
+    //     "Full stack software engineering bootcamp where I learned front and backend technologies and practices to create a seamless client to server connection",
+    //     "Started a technical blog, 'Into the Software-Verse', exploring the similarities between human and machine learning",
+    //     "Integrated full stack curriculum with mobile development and computer vision that culminated in my capstone project",
+    //   ],
+    //   imageUrl: "/images/flatiron.png",
+    // },
   ];
   // Dom manipulation and connecting to the server, API and Database creation and management, Object oriented programming and object relational mapping
   

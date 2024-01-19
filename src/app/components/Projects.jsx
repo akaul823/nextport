@@ -44,15 +44,6 @@ function Projects() {
       
     // }
   ]
-  const [tag, setTag] = useState("All")
-
-  const handleTagChange = (newTag) => {
-    setTag(newTag);
-  };
-
-  const filteredProjects = projectsData2.filter((project) =>
-    project.tag.includes(tag)
-  );
   
 
 return (
@@ -67,7 +58,7 @@ return (
       Projects
     </h3>
     <div className='w-screen flex overflow-x-scroll overflow-y-hidden p-10 mt-1 snap-x snap-mandatory z-0 scrollbar scrollbar-track-gray-900 scrollbar-thumb-rose-800'> 
-      {filteredProjects.map((project, index) => (
+      {projectsData2.map((project, index) => (
         <div key={project.id} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-30 h-auto'>
           <div className='relative group'>
             <motion.img 
@@ -100,6 +91,7 @@ return (
             <h4 className='text-4xl font-semibold text-center text-fuchsia-800'>
               {project.title}
             </h4>
+            {/* <img src='images/python.png' className='h-10 w-10 hover:animate-bounce' /> */}
             <p className='text-rose-900 text-lg text-center md:text-left'>{project.description}</p>
           </div>
         </div>
