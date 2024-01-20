@@ -8,7 +8,7 @@ import Link from 'next/link';
 function Header() {
   return (
     // took out mx-auto for split icons
-    <header className='sticky top-0 p-5 flex items-start justify-between w-full max-w-7xl mx-auto z-100 xl:items-center'> 
+    <header className='sticky top-0 p-5 flex items-start justify-between w-full max-w-7xl mx-auto z-1000 xl:items-center'> 
         <motion.div 
         initial={{
             x: -500,
