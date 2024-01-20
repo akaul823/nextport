@@ -14,27 +14,27 @@ export default function Home() {
     overflow-x-hidden z-0 scrollbar scrollbar-track-[rgb(24,24,24)] scrollbar-thumb-rose-800">
       <Header />
 
-      <section id='hero' className='snap-start'>
+      <section id='hero' className='md:snap-start'>
         <Hero />
       </section>
 
-      <section id='about' className='snap-start'>
+      <section id='about' className='md:snap-start'>
         <About />
       </section>
 
-      <section id='experience' className='snap-start'>
+      <section id='experience' className='md:snap-start'>
         <Experience />
       </section>
 
-      <section id='skills' className='snap-start'>
+      <section id='skills' className='md:snap-start'>
         <Skills />
       </section>
 
-      <section id='projects' className='snap-start'>
+      <section id='projects' className='md:snap-start'>
         <Projects/>
       </section>
 
-      <section id='contact' className='snap-start'>
+      <section id='contact' className='md:snap-start'>
         <Contact />
       </section>
 
