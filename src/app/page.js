@@ -22,7 +22,7 @@ export default function Home() {
         <About />
       </section>
 
-      <section id='experience' className='md:snap-start'>
+      <section id='experience' className='md:snap-center'>
         <Experience />
       </section>
 
@@ -30,7 +30,7 @@ export default function Home() {
         <Skills />
       </section>
 
-      <section id='projects' className='md:snap-start'>
+      <section id='projects' className='md:snap-center'>
         <Projects/>
       </section>
 
