@@ -14,7 +14,7 @@ export default function Home() {
     overflow-x-hidden z-0 scrollbar scrollbar-track-[rgb(24,24,24)] scrollbar-thumb-rose-800">
       <Header />
 
-      <section id='hero' className='snap-start'>
+      <section id='hero' className='md:snap-start'>
         <Hero />
       </section>
 
