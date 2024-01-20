@@ -17,7 +17,7 @@ function Experience() {
       description: [
         "Actively engaged in a dynamic team environment, focusing on a major overhaul of Microgrid Labs' EVopt user interface.",
         "Implementing the integration of cutting-edge API services, streamlining data flow and enhancing interactivity for a seamless user experience.",
-        "Applying rigorous Software Development Life Cycle (SDLC) principles, I've contributed to various phases from design, development, testing, and deployment, ensuring high-quality software delivery."
+        "Applying rigorous Software Development Life Cycle (SDLC) principles, contributing to various phases from design, development, testing, and deployment, ensuring high-quality software delivery."
       ],
       imageUrl: "/images/tester.png",
     },
