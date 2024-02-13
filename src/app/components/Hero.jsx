@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 function Hero() {
     const [text, count] = useTypewriter({
-        words: ["print('Hello World!')", "console.log('My name\'s Avi')"],
+        words: ['print("Hello World!")', 'console.log("My name\'s Avi")'],
         loop: true,
         delaySpeed: 2000,
     });
