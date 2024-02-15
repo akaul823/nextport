@@ -28,7 +28,7 @@ function About() {
           <h3 className='text-2xl md:text-4xl font-semibold italic hover:not-italic'>Get to know me</h3>
           <p className='text-sm md:text-base lg:text-base text-rose-800'>
             Since childhood, I have had a deep curiosity and fascination with the world around me and how it works. In order to satiate this curiosity in an 
-            applicable way, I decided to earn my bachelor's degree in political science focussing on international relations and comparative politics, looking to explore and understand the dynamics of the grand game that occupy the world we live in. I was able to explore this puzzle in both a normative
+            applicable way, I decided to earn my bachelor's degree in political science focusing on international relations and comparative politics, looking to explore and understand the dynamics of the grand game that occupy the world we live in. I was able to explore this puzzle in both a normative
             and empirical way, and it is from the latter that I realized my fascination and calling in providing solutions through engineering software. <span className='text-fuchsia-800'>I loved the idea of taking a bunch of seemingly random numbers and using them to tell a story. </span> 
             When creating these mechanisms, I found many exciting similarities between how I was programming the computer and how I learned things.
           </p>

@@ -39,7 +39,7 @@ function Projects() {
       description: "A plane flying game",
       image: "images/chaser.png",
       tag: ["All","Console"],
-      gitUrl: "/https://github.com/akaul823/chaser",
+      gitUrl: "https://github.com/akaul823/chaser",
       previewUrl: "/",
       
     }
