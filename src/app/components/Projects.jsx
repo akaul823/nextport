@@ -40,7 +40,7 @@ function Projects() {
       image: "images/chaser.png",
       tag: ["All","Console"],
       gitUrl: "https://github.com/akaul823/chaser",
-      previewUrl: "https://youtu.be/ePU4Ua_SVig",
+      previewUrl: "https://www.youtube.com/watch?v=ePU4Ua_SVig",
       
     }
   ]
