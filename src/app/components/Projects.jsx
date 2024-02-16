@@ -33,16 +33,16 @@ function Projects() {
       gitUrl: "https://github.com/akaul823/phase3-python-sql-project",
       previewUrl: "https://www.youtube.com/watch?v=gR3cApqgG80"
     },
-    // {
-    //   id:4,
-    //   title: "Scrap",
-    //   description: "An accessible digital dojo for fighters looking for sparring partners",
-    //   image: "images/scrapp.png",
-    //   tag: ["All","Mobile"],
-    //   gitUrl: "/",
-    //   previewUrl: "/",
+    {
+      id:4,
+      title: "chaser",
+      description: "A plane flying game",
+      image: "images/chaser.png",
+      tag: ["All","Console"],
+      gitUrl: "https://github.com/akaul823/chaser",
+      previewUrl: "https://www.youtube.com/watch?v=ePU4Ua_SVig",
       
-    // }
+    }
   ]
   
 
