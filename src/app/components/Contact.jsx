@@ -40,7 +40,7 @@ function Contact() {
         </h3>
         <div className='flex flex-col space-y-8 mt-0'>
             <h4 className='text-lg md:text-4xl font-semibold text-center'>
-                Interested in working together? <span>Let's chat.</span>
+                Interested in working together? <span>Let&apos;s chat.</span>
             </h4>
 
             <div className='space-y-2'>
