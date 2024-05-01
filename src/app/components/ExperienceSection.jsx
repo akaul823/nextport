@@ -9,7 +9,7 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Software Development Intern",
+      title: "Software Development Engineer",
       company: "Microgrid Labs",
       startDate: "December 2023",
       endDate: "present",
