@@ -29,9 +29,9 @@ function Experience() {
       endDate: "September 2023",
       tech: ["/images/HTML5.png","images/CSS3.png","/images/JavaScript.png","/images/Python.png", "/images/React.png","/images/Next.js.png","/images/Flask.png","/images/SQLAlchemy.png","/images/SQLite.png","/images/TensorFlow.png","/images/PyTorch.png"],
       description: [
-        "Full stack software engineering bootcamp where I learned front and backend technologies and practices to create a seamless client to server connection",
-        "Started a technical blog, 'Into the Software-Verse', exploring the similarities between human and machine learning",
-        "Integrated full stack curriculum with mobile development and computer vision that culminated in my capstone project",
+        "Improved modeling, simulation, and optimization content management system for EV fleets by designing and implementing features to organize data in a readable and meaningful way.",
+        "Created a React-Django app for TCO analysis of fleet electrification",
+        "Applying rigorous Software Development Life Cycle (SDLC) principles, contributing to various phases from design, development, testing, and deployment, ensuring high-quality software delivery."
       ],
       imageUrl: "/images/flatiron.png",
     },
